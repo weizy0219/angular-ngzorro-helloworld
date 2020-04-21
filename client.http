@@ -1,0 +1,48 @@
+@baseurl=http://127.0.0.1:3000
+
+
+###
+GET {{baseurl}}/Heros
+
+###
+GET {{baseurl}}/Heros/20
+###
+POST http://localhost:3000/Heros HTTP/1.1
+content-type: application/json
+
+{
+    "id":28,
+    "name":"sample"
+}
+
+###
+PUT http://localhost:3000/Heros/28 HTTP/1.1
+content-type: application/json
+
+{
+    "id":28,
+    "name":"Cliff"
+}
+###
+POST http://localhost:3000/Heros HTTP/1.1
+content-type: application/json
+
+{
+  "id": 20,
+"name": "Tornado" }
+
+###
+PUT http://localhost:3000/Heros/20 HTTP/1.1
+content-type: application/json
+
+{
+  "id": 20,
+"name": "Tornado" }
+
+###
+DELETE http://localhost:3000/Heros/28 HTTP/1.1
+content-type: application/json
+
+###
+DELETE http://localhost:3000/Heros HTTP/1.1
+content-type: application/json

@@ -1,0 +1,38 @@
+<div *ngIf="hero">
+  <div>
+    <nz-space nzDirection="vertical">
+      <h2>{{hero.name |uppercase}} Details</h2>
+    </nz-space>
+  </div>
+  <div>
+    <nz-space nzDirection="vertical">
+      <nz-input-group nzAddOnBefore="  id: ">
+        <input type="text" nz-input [(ngModel)]="hero.id" [disabled]="true" />
+      </nz-input-group>
+    </nz-space>
+  </div>
+  <div>
+    <nz-space nzDirection="vertical">
+      <nz-input-group nzAddOnBefore="Name:">
+        <input type="text" nz-input [(ngModel)]="hero.name" />
+      </nz-input-group>
+    </nz-space>
+  </div>
+</div>
+
+<nz-space nzDirection="vertical">
+  <div>
+    <nz-space nzSize="middle">
+      <nz-space-item>
+        <button nz-button nzType="primary" (click)="toSave()">Save Hero</button>
+      </nz-space-item>
+      <nz-space-item>
+        <button nz-button nzType="primary" (click)="toDelete()">Delete Hero</button>
+      </nz-space-item>
+      <nz-space-item>
+        <button nz-button nzType="primary" (click)="toResetHero()">Reset Heros</button>
+      </nz-space-item>
+    </nz-space>
+  </div>
+
+</nz-space>

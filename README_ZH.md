@@ -1,0 +1,37 @@
+[English](./README.md) | [中文](.README_ZH.md)
+
+# Heroes
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## 1.Angular和Ng-zorro
+
+Angular项目文档的完善与准确程度，是绝大多数开源项目所不具备的。这虽然和Angular背靠谷歌这样的大树不无关系，但更多是由Angular项目自身的严谨性与完善性决定的。对Angular的初学者来说，最好的入门项目莫过于官方文档中的快速入门和英雄指南项目。快速入门项目可以通过在线练习快速熟悉Angular的基本特性，而英雄指南项目则实现了从零开始搭建一个Angular项目的全过程，同时，英雄指南项目也是官方文档中很多示例的实现代码，因此对于后续阅读Angular文档有着非常重要的意义。
+
+Ant Design是蚂蚁金服主导的一个组件库(包括了其设计理念），提供了网络项目中完整的（尤其是中后端）组件和案例。Ant Design原生支持React框架，Ng-zorro是Ant Design针对Angular的实现。为了说明Ng-zorro和Angular的使用，本文通过Ng-zorro组件来实现Angular英雄指南项目，同时对Angular官方示例文档和Ng-zorro的使用进行详细介绍和补充说明。
+
+## 2.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
